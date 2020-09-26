@@ -1,1 +1,1 @@
-docker-compose run --rm aosp repo sync -j2
+time docker-compose run --rm aosp repo sync -j2
