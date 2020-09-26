@@ -2,7 +2,7 @@ version: "2"
 
 services:
   aosp:
-    image: kylemanna/aosp:latest
+    image: aosp-dallon
     volumes:
       - ~/aosp/ccache:/tmp/ccache
       - ~/aosp:/aosp

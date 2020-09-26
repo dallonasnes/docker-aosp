@@ -40,6 +40,9 @@ chown aosp:aosp /tmp/ccache /aosp
 echo "$msg - done"
 
 echo ""
+msg="docker_entrypoint: Initializing repo in aosp directory" && echo $msg
+cd /aosp
+repo init -u https://android.googlesource.com/platform/manifest
 
 # Default to 'bash' if no arguments are provided
 args="$@"
