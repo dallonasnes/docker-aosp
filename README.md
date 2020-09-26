@@ -7,6 +7,11 @@ Android Open Source Project Docker Build Environment
 
 Minimal build environment for AOSP with handy automation wrapper scripts.
 
+### Fixed and modern quickstart steps
+Clone the repo. Run `bash build.sh` to build the container and setup repo installation tool. Run `bash run.sh` to use repo to copy aosp source code to `/aosp`.
+
+### Below is Legacy
+
 Developers can use the Docker image to build directly while running the
 distribution of choice, without having to worry about breaking the delicate
 AOSP build due to package updates as is sometimes common on bleeding edge
