@@ -2,7 +2,7 @@ version: "2"
 
 services:
   aosp:
-    image: aosp-dallon
+    image: aosp-test
     volumes:
       - ~/aosp/ccache:/tmp/ccache
       - ~/aosp:/aosp

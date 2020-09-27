@@ -1,1 +1,1 @@
-time docker build -t aosp-dallon .
+time docker build -t aosp-test .
